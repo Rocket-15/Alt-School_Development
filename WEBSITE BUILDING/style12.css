@@ -1,0 +1,32 @@
+.box{
+	width:600px;
+	height:auto;
+	padding: 10px;
+	background-color: black;
+}
+img{
+	max-width: 100%
+}
+.text{
+	text-align: center;
+	font-size: 25px;
+	color: blue;
+}
+.text a{
+	text-decoration: none;
+	color: green;
+	font-family: bauhaus 93;
+
+}
+
+.card{
+	background-color: red;
+	width: 200px;
+	height: auto;
+	transition: all 0.65s ease-in-out;
+}
+
+
+.card:hover{
+	transform:rotateY(180deg);
+}
